@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <main>
+    <form action="" class="survey-form">
+
+    <!-- start head of form -->
+        <header>
+          <h1>Survey Form:</h1>
+          <hr>
+        </header>
+      <!-- end head of form -->
+
+
+    <!-- start customer name section -->
+        <section class="customer-name">
+          <h2>Customer Name</h2>
+          <div class="two-inputs">
+                <div>
+                  <input type="text" name="firstname">
+                  <small>Enter your first name</small>
+                </div>
+                <div>
+                  <input type="text" name="lastname">
+                  <small for="">Enter last first Name</small>
+                </div>
+          </div>
+        </section>
+      <!-- end customer name section -->
+
+
+      <!-- start address section -->
+        <section class="address">
+          <h2>Address</h2>
+          <div>
+            <input type="text"  class="st-address1">
+            <small for="">street address</small>
+          </div>
+          <div>
+            <input type="text"  class="st-address2">
+            <small for="">street address line 2</small>
+          </div>
+          
+          <div class="two-inputs">
+            <div>
+              <input type="text">
+              <small for="">City</small>
+            </div>
+            <div>
+              <input type="text">
+              <small for="">State</small>
+            </div>
+          </div>
+          <div>
+            <input type="number">
+            <small for="">Zip</small>
+          </div>
+          
+
+          <select class="country" name="country" required>
+            <option value="Afghanistan" selected>Afghanistan</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+          </select>
+        </section>
+      <!-- <end address section> -->
+
+
+    <!-- start contact section -->
+        <section class="contact">
+          <h2>Contact</h2>
+          <div class="two-inputs">
+            <div>
+              <input type="number">
+              <small for="">phone</small>
+            </div>
+            <div>
+              <input type="number">
+              <small for="">Email</small>
+            </div>
+          </div>
+        </section>
+    <!-- end contact section -->
+
+
+    <!-- start personal details section -->
+        <section class="personal-details">
+          <h2>Personal Details</h2>
+          <div>
+            <div class="input-div">
+              <div>
+                <input id="male" name="gender" value="male" type="radio">
+                <span for="male">Male</s>
+              </div>
+              <div>
+                <input id="female" name="gender" value="female" type="radio">
+                <span for="female">Female</span>
+              </div>
+              <div>
+                <input id="other" name="gender" value="other" type="radio">
+                <span for="other">Other</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+    <!-- end personal details section -->
+
+
+      <!-- start rating section -->
+        <section class="rating">
+          <h2>Rating</h2>
+          <div>
+            <h5 style="margin-bottom:1rem ;">Rating 1:</h5>
+              <div class="input-div" style="display: flex; gap:10px;">
+                <input type="radio" id="bad" name="rating1" value="bad">
+                <label for="bad">Bad</label><br>
+                <input type="radio" id="good" name="rating1" value="good">
+                <label for="good">Good</label><br>
+                <input type="radio" id="excelent" name="rating1" value="other">
+                <label for="excelent">Excelent</label><br>
+              </div>
+            </div>
+        </section>
+      <!-- end rating section -->
+
+    </form>
+  </main>
+  
+</body>
+</html>

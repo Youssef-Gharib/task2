@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.survey-form {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.survey-form h1 {
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.survey-form hr {
+  width: 90%;
+  margin: auto;
+}
+.survey-form input, .survey-form select {
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.survey-form small {
+  display: block;
+}
+.survey-form .two-inputs {
+  display: flex;
+  gap: 3rem;
+}
+.survey-form .two-inputs .customer-name div {
+  width: 35%;
+}
+.survey-form .two-inputs .customer-name div input {
+  width: 100%;
+}
+.survey-form .address div {
+  margin-bottom: 1.5rem;
+}
+.survey-form .address div div {
+  margin-bottom: 0;
+}
+.survey-form .address .st-address1, .survey-form .address .st-address2 {
+  width: 100%;
+}
+
+h2 {
+  margin: 40px 0 15px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+/* .s-address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+/* .name-input{
+  display: flex;
+} */
+/* .name-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+} */
+
+
+/*# sourceMappingURL=style.css.map */
